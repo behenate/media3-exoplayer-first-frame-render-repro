@@ -1,0 +1,7 @@
+**/*/build
+.history/
+.gradle/
+build/
+local.properties
+.idea
+.vscode

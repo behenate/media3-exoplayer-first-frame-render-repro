@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity"
+  android:orientation="vertical">
+
+  <androidx.media3.ui.PlayerView
+    android:id="@+id/player_view"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:use_controller="false"/>
+  <androidx.media3.ui.PlayerView
+    android:id="@+id/player_view2"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:use_controller="false"/>
+  <androidx.media3.ui.PlayerView
+    android:id="@+id/player_view3"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:use_controller="false"/>
+  <androidx.media3.ui.PlayerView
+    android:id="@+id/player_view4"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:use_controller="false"/>
+  <androidx.media3.ui.PlayerView
+    android:id="@+id/player_view5"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    app:use_controller="false"/>
+
+  <Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Play"
+    android:onClick="play"/>
+
+</LinearLayout>
